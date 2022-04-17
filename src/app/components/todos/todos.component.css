@@ -3,6 +3,7 @@
 	padding: 10px 15px;
 	background-color: #FFF;
 	border-bottom: 1px solid #DDD;
+	position: relative;
 }
 
 .todo:nth-child(even) {
@@ -15,10 +16,12 @@
 
 .todo .id {
 	flex: 1 1 50px;
+	position: center;
 }
 
 .todo .content {
 	flex: 1 1 100%;
+	position: center;
 }
 
 .todo.done .content {
@@ -35,6 +38,7 @@
 	margin-top: 15px;
 	font-size: 20px;
 	outline: none;
+	position: relative;
 }
 
 .todo-submit {
@@ -45,6 +49,7 @@
 	border: none;
 	outline: none;
 	background: none;
+	position: relative;
 
 	background-color: #1a058c4d;
 	color: #FFF;
@@ -52,8 +57,7 @@
 
 	padding: 10px 15px;
 	font-size: 18px;
-	font-weight: 700;
-}
+	font-weight: 700;}
 .delete {
 	background-color: #f4511e;
   border: none;
@@ -72,5 +76,9 @@
 .delete:hover {
 	background-color: rgb(224, 10, 10);
   color: white;
+}
+
+.content {
+	position: relative;
 }
 
