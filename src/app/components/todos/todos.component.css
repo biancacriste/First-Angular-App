@@ -54,3 +54,23 @@
 	font-size: 18px;
 	font-weight: 700;
 }
+.delete {
+	background-color: #f4511e;
+  border: none;
+  color: white;
+  padding: 15px 18px;
+  text-align: center;
+  font-size: 10px;
+  margin: 2px 2px;
+  opacity: 0.6;
+  transition: 0.3s;
+  display: inline-block;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.delete:hover {
+	background-color: rgb(224, 10, 10);
+  color: white;
+}
+
